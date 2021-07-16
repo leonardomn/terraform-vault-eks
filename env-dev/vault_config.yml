@@ -1,0 +1,25 @@
+server:
+  ha:
+    enabled: true
+    replicas: 1
+
+    config: |
+      disable_mlock = true
+      ui = true
+
+      listener "tcp" {
+        tls_disable = 1
+        address = "[::]:8200"
+        cluster_address = "[::]:8201"
+      }
+
+      storage "file" {
+        path = "/vault/data"
+      }
+
+      seal "awskms" {
+        region     = "us-west-2"
+        access_key = "REPLACE_HERE"
+        secret_key = "REPLACE_HERE"
+        kms_key_id = "REPLACE_HERE"
+      }
