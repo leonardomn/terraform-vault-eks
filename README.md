@@ -16,10 +16,10 @@ You will need some requirements to deploy and install Hashicorp Vault on EKS, fo
 
 Reference documentation and links:
 
-https://helm.sh
-https://www.hashicorp.com
-https://kubernetes.io/docs/reference/kubectl/overview/
-https://aws.amazon.com
+* https://helm.sh
+* https://www.hashicorp.com
+* https://kubernetes.io/docs/reference/kubectl/overview/
+* https://aws.amazon.com
 
 ## Installation
 
