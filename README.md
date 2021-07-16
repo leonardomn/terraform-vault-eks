@@ -1,4 +1,4 @@
-#Hashicorp Vault on Kubernetes (EKS) Aws
+# Hashicorp Vault on Kubernetes (EKS) Aws
 
 This repository will help you to deploy Hashicorp Vault on an EKS cluster. The benefits of using this solution, will be the automation and at same time, the user-friendly process. Infrastructure as code it's the easiest way create resource on cloud.
 With some integration we can have multiple resources working together to solve a many number of problems.     
