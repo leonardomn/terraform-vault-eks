@@ -138,3 +138,10 @@ sh script_emergency_unseal.sh
 ```
 
 It should enable your vault and put it back to work.
+
+### OpenSource Modules and Provider
+
+I like to use modules and providers from Terraform Registry when possible. Some people will like to speed up the work and ship code as soon as possible, but sometimes we will need to use modules to delivery the work before on the due date. If possible, I like to write the modules keeping it dry or having all options for that use, if not possible, I'll try to use the Terraform Registry.
+Some companies don't like to use module from Public repositories and in this case, they can clone and push it internally using his proper version. I'm not setting a version on the modules of this project, but it should be used when a real deployment for production, to avoid non-expected changes everytime a new module is pushed.
+
+* https://registry.terraform.io/
